@@ -24,7 +24,7 @@
 
 - 実行結果(Execution result)
   - GIFによる実行結果
-    - ![demo]()
+    - ![alt-text](https://github.com/acaptakiyudin04/image_processing/blob/master/result.gif)
 
 - 参考文献(references)
   - https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html
