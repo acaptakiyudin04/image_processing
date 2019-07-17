@@ -11,11 +11,11 @@
   - 12行目:webcameraのインスタンスを作成   (line 12 : Configure VideoCapture class instance for using camera)
   - 17行目：Capture frame-by-frame
   - 18行目：x軸の値がi(line 18:set i as value of x axis)
-  - 19行目：y軸の値がwebcameraで読み取る画像の平均値
-  - 21行目：グラフをプロットする。(plot graph of x and y)
-  - 23行目：webcameraで読み取る画像の平均値を出力する(printout the mean value of the brightness values of the image )
-  - 25行目：webcameraで読み取る画像を表示する(Display the image read by webcamera)
-  - 26行目：ESCボタンを押したらループから抜けて、プログラム終了(press ESC button to finish the program)
+  - 19行目：y軸の値がwebcameraで読み取る画像の平均値(line 19: set mean value of the brightness values of the image  as value of y axis)
+  - 21行目：グラフをプロットする。(line 21 : plot graph of x and y)
+  - 23行目：webcameraで読み取る画像の平均値を出力する(line 23 : printout the mean value of the brightness values of the image )
+  - 25行目：webcameraで読み取る画像を表示する(line 25 : Display the image read by webcamera)
+  - 26行目：ESCボタンを押したらループから抜けて、プログラム終了(line 26 : press ESC button to finish the program)
 - 使い方(How to use)
   - $ python3.7 image_mean_analysis.py　で実行(compile and execute "image_mean_analysis.py")
   - web cameraが起動し，輝度値を測定する．(The web camera will start and measures the brightness value.)
@@ -23,8 +23,7 @@
   - ESCボタンを押したらプログラム終了(press ESC button to end the program)
 
 - 実行結果(Execution result)
-  - GIFによる実行結果
-    - ![alt-text](https://github.com/acaptakiyudin04/image_processing/blob/master/result.gif)
+  - ![alt-text](https://github.com/acaptakiyudin04/image_processing/blob/master/result.gif)
 
 - 参考文献(references)
   - https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html
